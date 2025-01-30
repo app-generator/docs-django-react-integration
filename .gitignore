@@ -11,3 +11,7 @@ env
 #src
 *.sqlite*
 
+package-lock.json
+yarn.lock
+webpack-stats.json
+frontend/static/

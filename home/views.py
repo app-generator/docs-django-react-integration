@@ -12,3 +12,7 @@ def index(request):
     'date': datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
   }
   return HttpResponse("Hello DJANGO! time is: " + context['date'])
+
+
+def frontend(request):
+    return render(request, 'frontend/index.html')
